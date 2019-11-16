@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.appmultitec.Activity.FotoActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btVoltar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/ic_arrow_back_branco_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewFull"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageViewFull"
+            app:layout_constraintVertical_bias="0.031" />
+
+        <ImageView
+            android:id="@+id/imageViewFull"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/cardview_dark_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_image_cinsa_24dp" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>

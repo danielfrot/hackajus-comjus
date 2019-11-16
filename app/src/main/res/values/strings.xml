@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Justiça.com</string>
+    <string name="title_activity_principal">com.jus</string>
+    <string name="title_inicio">Início</string>
+    <string name="title_RME">Dificuldade</string>
+
+
+    <string name="title_RmeAtendida">Solucoes</string>
+    <string name="title_list_chamado">Solucoes</string>
+    <string name="title_create_chamado">Soluções</string>
+    <string name="title_detalhe_chamado">Soluções</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_form_rme">Dificuldade</string>
+    <string name="title_detalhe_material">Detalhe da dificuldade</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

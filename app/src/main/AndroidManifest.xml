@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.root.appmultitec"
+    android:installLocation="preferExternal">
+    <!-- permissao de acesso a internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- permissao de galeria/camera -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launchermultitec"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Activity.DetalheChamadoActivity"
+            android:parentActivityName=".Activity.ChamadoListActivity"
+            android:label="@string/title_detalhe_chamado"></activity>
+        <activity android:name=".Activity.ChamadoListActivity"
+            android:label="@string/title_list_chamado"/>
+        <activity android:name=".Activity.chamadoActivity"
+            android:label="@string/title_create_chamado"/>
+        <activity android:name=".Activity.MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.PrincipalActivity"
+            android:label="@string/title_activity_principal" />
+        <activity
+            android:name=".Activity.FormRmeActivity"
+            android:label="@string/title_activity_form_rme" />
+        <activity
+            android:name=".Activity.DetalhesRmeActivity"
+            android:parentActivityName=".Activity.DetalhesRmeActivity"
+            android:label="@string/title_detalhe_material"/>
+        <activity
+            android:name=".Activity.FotoActivity"
+            android:parentActivityName=".Activity.DetalhesRmeActivity" />
+
+
+        <activity android:name=".Activity.LoginActivity" />
+    </application>
+
+</manifest>

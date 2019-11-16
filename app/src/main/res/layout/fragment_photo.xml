@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.root.appmultitec.Activity.PhotoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <ImageView
+        android:id="@+id/fotoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="center"
+        android:src="@drawable/ic_image_cinsa_24dp"/>
+
+    <Button
+        android:id="@+id/btFecharFragment"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_fechar_24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:elevation="8dp"/>
+
+
+</FrameLayout>
